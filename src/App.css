@@ -1,0 +1,43 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  min-width: 65% !important;
+  width: 65%;
+  margin: auto;
+}
+
+.App > h2 {
+  border-bottom: 5px solid royalblue;
+  padding-bottom: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 0.5rem !important;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  background-color: rgb(220, 244, 253);
+}
+
+.card-img-top {
+  width: 286px !important;
+  height: 236px !important;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important;
+}
