@@ -25,6 +25,12 @@ export const projects = [
     image: "questions.jpeg"
   },
   {
+    name: "Menu",
+    url: "https://reactjs-menu-app.netlify.app/",
+    thumbnail: "https://i2.paste.pics/6f7ffd7bc75cc9cdb1eb6d531c54d594.png",
+    image: "menu.jpeg"
+  },
+  {
     name: "Amazon Books",
     url: "https://mini-book-list-react.netlify.app/",
     thumbnail: "https://i2.paste.pics/44bea7cac55a1c245bbc0a2a9254989c.png",
