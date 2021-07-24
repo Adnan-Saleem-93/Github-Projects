@@ -7,11 +7,11 @@ const Project = ({index, name, url, thumbnail, image}) => {
   };
 
   const handleMouseOver = () => {
-    document.getElementById(index).style =
-      "background-color: rgba(138, 137, 228, 0.322); color: rgb(47, 12, 94);";
+    document.getElementById(`card-body-${index}`).style =
+      "background-color: rgba(184, 184, 222, 0.322); color: rgb(47, 12, 94);";
   };
   const handleMouseOut = () => {
-    document.getElementById(index).style = "background-color: white; color: black";
+    document.getElementById(`card-body-${index}`).style = "background-color: white; color: black";
   };
 
   return (
@@ -23,7 +23,7 @@ const Project = ({index, name, url, thumbnail, image}) => {
         onMouseOut={handleMouseOut}
       >
         <Card.Img variant="top" src={"./images/" + image} alt={image} />
-        <Card.Body id={index}>
+        <Card.Body id={`card-body-${index}`}>
           <Card.Title className="text-center">{name}</Card.Title>
         </Card.Body>
       </Card>
