@@ -5,7 +5,7 @@ import {projects} from "../utils/constants";
 const ProjectsList = () => {
   const renderProjectsList = () => {
     return projects.map((item, index) => {
-      return <Project {...item} key={index} />;
+      return <Project {...item} index={index} key={index} />;
     });
   };
 

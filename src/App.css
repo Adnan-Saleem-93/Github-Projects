@@ -1,5 +1,4 @@
 .App {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,9 +9,16 @@
   margin: auto;
 }
 
-.App > h2 {
-  border-bottom: 5px solid royalblue;
-  padding-bottom: 5px;
+h2 {
+  padding: 2rem !important;
+  background-color: rgba(138, 137, 228, 0.322);
+  color: rgb(47, 12, 94);
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
 }
 
 .grid {
@@ -31,7 +37,6 @@
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
-  background-color: rgb(220, 244, 253);
 }
 
 .card-img-top {
