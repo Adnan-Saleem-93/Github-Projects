@@ -35,11 +35,5 @@ export const projects = [
     url: "https://experience-app-reactjs.netlify.app/",
     thumbnail: "https://paste.pics/b4c6f484d3269fdde7719fda0cbeee49",
     image: "experience.jpeg"
-  },
-  {
-    name: "Amazon Books",
-    url: "https://mini-book-list-react.netlify.app/",
-    thumbnail: "https://i2.paste.pics/44bea7cac55a1c245bbc0a2a9254989c.png",
-    image: "mini-book-list.jpeg"
   }
 ];
