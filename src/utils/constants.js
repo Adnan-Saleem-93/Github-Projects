@@ -35,5 +35,11 @@ export const projects = [
     url: "https://experience-app-reactjs.netlify.app/",
     thumbnail: "https://paste.pics/b4c6f484d3269fdde7719fda0cbeee49",
     image: "experience.jpeg"
+  },
+  {
+    name: "Slider",
+    url: "https://reviews-slider-reactjs.netlify.app/",
+    thumbnail: "https://paste.pics/77ddc0a5846d7fa7ae0bba54cb42c9c8",
+    image: "slider.jpeg"
   }
 ];
