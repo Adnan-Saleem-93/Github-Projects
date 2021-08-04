@@ -39,7 +39,7 @@ export const projects = [
   {
     name: "Slider",
     url: "https://reviews-slider-reactjs.netlify.app/",
-    thumbnail: "https://paste.pics/77ddc0a5846d7fa7ae0bba54cb42c9c8",
+    thumbnail: "https://paste.pics/121ddf22de04e2c63231b167c034aea7",
     image: "slider.jpeg"
   }
 ];
