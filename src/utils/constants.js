@@ -9,13 +9,13 @@ export const projects = [
   {
     name: "Tours",
     url: "https://reactjs-tours-app.netlify.app/",
-    thumbnail: "https://i2.paste.pics/bc9f69563ff4089258ef10e0d8708a94.png",
+    thumbnail: "https://i2.paste.pics/23f28111201fee832112241f51d10859.png",
     image: "tours.jpeg"
   },
   {
     name: "Reviews",
     url: "https://reactjs-reviews-app.netlify.app/",
-    thumbnail: "https://i2.paste.pics/025169b805702d778332ce3854873ec3.png",
+    thumbnail: "https://i2.paste.pics/adc36d7549aa616430431ee392b5d87b.png",
     image: "reviews.jpeg"
   },
   {
@@ -27,19 +27,25 @@ export const projects = [
   {
     name: "Menu",
     url: "https://reactjs-menu-app.netlify.app/",
-    thumbnail: "https://i2.paste.pics/6f7ffd7bc75cc9cdb1eb6d531c54d594.png",
+    thumbnail: "https://i2.paste.pics/96d624bd8e3a3e5cf51690bf3417b6a9.png",
     image: "menu.jpeg"
   },
   {
     name: "Experience",
     url: "https://experience-app-reactjs.netlify.app/",
-    thumbnail: "https://paste.pics/b4c6f484d3269fdde7719fda0cbeee49",
+    thumbnail: "https://i2.paste.pics/e49f07ee62481f9b100e73da69ecc5db.png",
     image: "experience.jpeg"
   },
   {
     name: "Slider",
     url: "https://reviews-slider-reactjs.netlify.app/",
-    thumbnail: "https://paste.pics/121ddf22de04e2c63231b167c034aea7",
+    thumbnail: "https://i2.paste.pics/c6c50ac109406b4a4645dc602e22249f.png",
     image: "slider.jpeg"
+  },
+  {
+    name: "Lorem Ipsum Generator",
+    url: "https://random-lorem-ipsum-paragraph-generator.netlify.app/",
+    thumbnail: "https://paste.pics/c916d1e056de437f86fb3254305de2b2",
+    image: "lorem-ipsum-generator.jpeg"
   }
 ];

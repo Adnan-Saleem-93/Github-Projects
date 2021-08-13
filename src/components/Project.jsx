@@ -7,11 +7,10 @@ const Project = ({index, name, url, thumbnail, image}) => {
   };
 
   const handleMouseOver = () => {
-    document.getElementById(`card-body-${index}`).style =
-      "background-color: rgba(184, 184, 222, 0.322); color: rgb(47, 12, 94);";
+    document.getElementById(`card-body-${index}`).style = "color: rgb(47, 12, 94);";
   };
   const handleMouseOut = () => {
-    document.getElementById(`card-body-${index}`).style = "background-color: white; color: black";
+    document.getElementById(`card-body-${index}`).style = "color: black";
   };
 
   return (
