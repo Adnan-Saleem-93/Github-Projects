@@ -45,7 +45,13 @@ export const projects = [
   {
     name: "Lorem Ipsum Generator",
     url: "https://random-lorem-ipsum-paragraph-generator.netlify.app/",
-    thumbnail: "https://paste.pics/c916d1e056de437f86fb3254305de2b2",
+    thumbnail: "https://i2.paste.pics/c916d1e056de437f86fb3254305de2b2.png",
     image: "lorem-ipsum-generator.jpeg"
+  },
+  {
+    name: "Color Generator",
+    url: "https://reactjs-colorgenerator.netlify.app/",
+    thumbnail: "https://i2.paste.pics/60eee642d6049865326a756039396807.png",
+    image: "color-generator.jpg"
   }
 ];
