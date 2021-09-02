@@ -53,5 +53,11 @@ export const projects = [
     url: "https://reactjs-colorgenerator.netlify.app/",
     thumbnail: "https://i2.paste.pics/60eee642d6049865326a756039396807.png",
     image: "color-generator.jpg"
+  },
+  {
+    name: "To-do List",
+    url: "https://to-do-list-app-react-js.netlify.app/",
+    thumbnail: "https://i2.paste.pics/d4a709ef37ff0add847c897b8859707a.jpg",
+    image: "todo-list.jpeg"
   }
 ];
